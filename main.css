@@ -1,8 +1,17 @@
+
+
+
 html {
  margin: 0;
  height: 100%;
  width: 100%;
  padding: 0;
+
+ background: url(forest2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 body {
@@ -12,8 +21,7 @@ body {
  padding: 0;
  overflow: auto;
  scrollbar-width: none;
- background-color: black;
-
+ background-color: none;
 }
 
 div {
@@ -25,21 +33,32 @@ div {
  left: 50%;
   -ms-transform: translate(-50%, -50%);
  transform: translate(-50%, -50%);
+
+
 }
 
 p {
-  font-family: 'Inconsolata', ;
-  color: white;
+  font-size: 150%;
+  color: red;
   margin:auto;
   text-align: center;
+  padding-top: 10%;
 
 }
 
 a {
-  color: #575757;
+  color: red;
   text-align: center;
+  text-decoration: none;
+
 }
 
 a:hover {
-  color: #6fff00;
+  color: #4a4a4a;
+}
+
+img {
+  margin:auto;
+  text-align: center;
+
 }
